@@ -6,7 +6,7 @@ SRCDIR=src
 BUILDIR=build
 BINPATH=$(BUILDIR)/mogura
 DOCSPATH=docs
-HEADERS=$(wildcard $(SRCDIR)/*.h))
+HEADERS=$(wildcard $(SRCDIR)/*.h)
 
 .PHONY: debug release docs clean $(HEADERS)
 
